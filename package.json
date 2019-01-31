@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon --exec node -r dotenv/config ./src/index.js",
-    "prepublish": "node ./src/util/setup.js"
+    "prepublish": "node ./src/utils/setup.js"
   },
   "engines": {
     "node": "^10.12.0"

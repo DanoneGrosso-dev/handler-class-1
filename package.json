@@ -1,0 +1,32 @@
+{
+  "name": "handler-class",
+  "version": "1.0.0",
+  "description": "Boilerplate for Discord.js with the use of classes",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --exec node -r dotenv/config ./src/index.js",
+    "prepublish": "node ./src/util/setup.js"
+  },
+  "engines": {
+    "node": "^10.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Luisão",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "discord.js": "^11.4.2",
+    "firebase": "^5.8.1",
+    "klaw": "^3.0.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "nodemon": "^1.18.9",
+    "readline-sync": "^1.4.9"
+  }
+}

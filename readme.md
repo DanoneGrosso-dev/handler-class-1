@@ -4,7 +4,7 @@ Boilerplate created to facilitate the creation of commands with classes for the 
 
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/get-npm) to install foobar.
+Use the package manager [npm](https://www.npmjs.com/get-npm) to install the packages.
 
 ```bash
 npm install

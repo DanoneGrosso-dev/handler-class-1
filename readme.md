@@ -9,6 +9,30 @@ Use the package manager [npm](https://www.npmjs.com/get-npm) to install the pack
 ```bash
 npm install
 ```
+## Manual Installation
+You can choose to manually configure the bot. Just create a file called **.env** at the root of your project and put the environment variables below.
+```env
+DISCORD_TOKEN=NDQWCmReCyz0Uf7TX0nw32-3XZNDJQc5AsQDWihYXWNr2.COBpA5idy52C9
+FIREBASE_KEY=NDQWCmReCyz0Uf7TX0nw32-3XZNDJQc5AsQDWihY
+FIREBASE_DOMAIN=your-app.firebaseapp.com
+FIREBASE_URL=https=//your-app.firebaseio.com
+FIREBASE_ID=your-app
+FIREBASE_STORAGE=your-app.appspot.com
+FIREBASE_SENDER_ID=000000000000
+```
+
+## Boot Modes
+
+There are two ways for you to start the bot. In development mode and in production mode. The **development** mode you use environment varivables locally, since in the **production** mode you use the server environment variables, I advise you to use the [Heroku](https://heroku.com/) hosting platform.
+
+#### Production Mode
+```bash
+npm start
+```
+#### Dev Mode
+```bash
+npm run dev
+```
 
 ## Method getSettings()
 

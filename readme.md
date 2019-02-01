@@ -5,6 +5,9 @@ Boilerplate created to facilitate the creation of commands with classes for the 
 ## Installation
 
 Use the package manager [npm](https://www.npmjs.com/get-npm) to install the packages.
+```bash
+git clone https://github.com/leduardo99/handler-class
+```
 
 ```bash
 npm install

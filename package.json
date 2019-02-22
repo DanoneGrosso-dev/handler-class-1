@@ -4,7 +4,7 @@
   "description": "Boilerplate for Discord.js with the use of classes",
   "main": "./src/index.js",
   "scripts": {
-    "start": "node .src/index.js",
+    "start": "node ./src/index.js",
     "dev": "nodemon --exec node -r dotenv/config ./src/index.js",
     "prepublish": "node ./src/utils/setup.js"
   },
